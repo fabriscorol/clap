@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@drawable/list_selector">
+  
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionbar"
+        style="@style/ActionBar" >
+    </com.markupartist.android.widget.ActionBar>
+    
+     <ListView
+        android:id="@+id/lesson_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:divider="#cccccc"
+        android:dividerHeight="0.1dp"
+        android:listSelector="@drawable/list_selector">
+	</ListView>
+    
+    
+</LinearLayout>
